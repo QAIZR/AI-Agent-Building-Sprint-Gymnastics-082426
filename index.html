@@ -10,13 +10,25 @@
     No audit-trail metadata in the rendered chrome (per CoS Section 19).
     This comment is the audit trail. Versioning per CoS Operating Rule #6.
 
-    Version: v1.6.3 (2026-07-25) [gymnastics variant, forked from general flyer v1.2.6]
+    Version: v1.7.0 (2026-07-25) [gymnastics variant, forked from general flyer v1.2.6]
     Brand: matches qaizr-brand-guide.html (Space Grotesk + Inter + JetBrains
     Mono; space-noir / signal-cyan; warm only as gradient-jet, no standalone
     gold) and the visual language of qaizr-site-v2.html (square buttons,
     alternating dark sections, 1600px stretch).
 
     CHANGELOG
+    v1.7.0  2026-07-25  Offer rebrand per Casey Jo MacPherson's feedback and
+                        Brian. Removed all CGGI and "Collegiate Gymnastics Growth
+                        Initiative" language. The offer is now attributed to the
+                        Growth and Enhancement Committee of the Women's Collegiate
+                        Gymnastics Association, and the code is WCGA across the
+                        hero banner, value section, offer card, additional-costs
+                        FAQ, spouse FAQ, and the pre-filled form field. The code
+                        field is free text, so an old CGGI entry still posts fine.
+                        Hero headline softened from "a fleet to run your
+                        gymnastics program" to "help run," to reassure
+                        control-minded coaches. The hero-offer eyebrow set to
+                        sentence case to carry the longer attribution line.
     v1.6.3  2026-07-25  Grammar fix: "morning and afternoon session" to
                         "sessions" (plural) in the switch-sessions FAQ question.
     v1.6.2  2026-07-25  Clarified in the spouse/family FAQ that the CGGI
@@ -388,7 +400,7 @@
     .offer-card .price-note { font-size:0.96rem; color:var(--text-mid); margin-top:0.6rem; }
     .offer-card .btn { width:100%; margin-top:1.5rem; }
     .hero-offer { margin:1.5rem auto 0; border:1px solid var(--jet-orange-bright); background:linear-gradient(180deg, rgba(255,154,47,0.14), rgba(255,90,61,0.06)); padding:1.25rem 1.5rem; max-width:760px; text-align:center; }
-    .hero-offer-k { font-family:var(--mono); font-size:0.72rem; text-transform:uppercase; letter-spacing:0.15em; color:var(--jet-orange-bright); margin:0; }
+    .hero-offer-k { font-family:var(--mono); font-size:0.78rem; text-transform:none; letter-spacing:0.04em; color:var(--jet-orange-bright); margin:0; }
     .hero-offer-h { font-family:var(--display); font-weight:700; font-size:clamp(1.5rem,3vw,2.1rem); line-height:1.1; letter-spacing:-0.02em; color:var(--paper-frost); margin:0.35rem 0 0; text-wrap:balance; }
     .hero-offer-h .warm { color:var(--jet-orange-bright); }
     .hero-offer-sub { font-size:1rem; color:var(--paper-frost); margin:0.6rem 0 0; text-wrap:pretty; }
@@ -494,7 +506,7 @@
         <svg class="hero-mark" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="jetUp" x1="256" y1="256" x2="256" y2="70" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F4FBFF"/><stop offset="0.56" stop-color="#FF9A2F"/><stop offset="1" stop-color="#FF5A3D"/></linearGradient><linearGradient id="jetDown" x1="256" y1="256" x2="256" y2="442" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F4FBFF"/><stop offset="0.56" stop-color="#FF9A2F"/><stop offset="1" stop-color="#FF5A3D"/></linearGradient></defs><circle cx="256" cy="256" r="150" fill="none" stroke="#2DBCE8" stroke-width="14" stroke-linecap="round" stroke-dasharray="884 52" stroke-dashoffset="-118" opacity="0.9"/><path d="M247.6 70 C248.4 168 250.4 214 253.6 256 L258.4 256 C261.6 214 263.6 168 264.4 70 Z" fill="url(#jetUp)" opacity="0.97"/><path d="M253.6 256 C250.4 298 248.4 344 247.6 442 L264.4 442 C263.6 344 261.6 298 258.4 256 Z" fill="url(#jetDown)" opacity="0.97"/><circle cx="256" cy="256" r="30" fill="#F4FBFF"/></svg>
         <p class="eyebrow">AI Agent Building Sprint &middot; For collegiate gymnastics programs</p>
         <blockquote class="hero-quote">&ldquo;There will be two kinds of companies at the end of this decade: those that are fully utilizing AI, and those that are <span class="accent">out of business</span>.&rdquo;<cite>Peter H. Diamandis<span>New York Times bestselling author</span></cite></blockquote>
-        <h1 class="hero-h1">Be the first kind. In five days, build your first AI agent, then a fleet to run your gymnastics&nbsp;program.</h1>
+        <h1 class="hero-h1">Be the first kind. In five days, build your first AI agent, then a fleet to help run your gymnastics&nbsp;program.</h1>
         <p class="hero-sub">For collegiate gymnastics head coaches, their staffs, directors of operations, and sport administrators who are being asked to do more than ever. You build on your own real work, and you leave knowing how to put it to work across your whole&nbsp;staff.</p>
         <p class="hero-lede">The AI Agent Building Sprint is the on-ramp for coaches who know AI matters but want the exact way to use it. You build your first agent, then learn to make it better, stand up a fleet, and run them as one operating system, so you leave able to put AI to work across recruiting, fundraising, operations, outreach, and athlete development, and to bring your whole staff along with&nbsp;you.</p>
         <div class="hero-cta">
@@ -509,9 +521,9 @@
           <span class="chip">Investment <b>$1,000</b> per program</span>
         </div>
         <div class="hero-offer">
-          <p class="hero-offer-k">Collegiate Gymnastics Growth Initiative</p>
+          <p class="hero-offer-k">Made possible through the Growth and Enhancement Committee of the Women's Collegiate Gymnastics Association</p>
           <p class="hero-offer-h">Bring your <span class="warm">whole staff</span> for the price of&nbsp;one.</p>
-          <p class="hero-offer-sub">A $5,000 value per person, and we normally charge $1,000 for every seat. Use code <b>CGGI</b> and one flat $1,000 brings up to five people, or six with your sport&nbsp;administrator.</p>
+          <p class="hero-offer-sub">A $5,000 value per person, and we normally charge $1,000 for every seat. Use code <b>WCGA</b> and one flat $1,000 brings up to five people, or six with your sport&nbsp;administrator.</p>
         </div>
       </div>
     </section>
@@ -611,7 +623,7 @@
         <div class="section-head">
           <p class="eyebrow">What you get</p>
           <h2 class="section-title">$5,000 of value per person. Your whole program for $1,000&nbsp;total.</h2>
-          <p class="section-sub">This training is a $5,000 value per person, and we normally charge $1,000 for every seat. Through the Collegiate Gymnastics Growth Initiative, I am covering the rest: with code <strong>CGGI</strong>, one flat $1,000 brings your whole coaching staff, up to five people, or six with your sport administrator, into the&nbsp;room.</p>
+          <p class="section-sub">This training is a $5,000 value per person, and we normally charge $1,000 for every seat. Through the Growth and Enhancement Committee of the Women's Collegiate Gymnastics Association, I am covering the rest: with code <strong>WCGA</strong>, one flat $1,000 brings your whole coaching staff, up to five people, or six with your sport administrator, into the&nbsp;room.</p>
         </div>
         <div class="value-wrap">
           <div class="value-list">
@@ -625,10 +637,10 @@
             <div class="value-row total"><span class="vi">Total value, per person</span><span class="vv">$5,000</span></div>
           </div>
           <aside class="offer-card">
-            <div class="label">Code CGGI &middot; Your whole program</div>
+            <div class="label">Code WCGA &middot; Your whole program</div>
             <div class="strike">Normally $1,000 per person</div>
             <div class="price">$1,000</div>
-            <p class="price-note">With code <strong>CGGI</strong>, one flat fee for your whole staff, up to five people, or six with your sport administrator. Not per&nbsp;person.</p>
+            <p class="price-note">With code <strong>WCGA</strong>, one flat fee for your whole staff, up to five people, or six with your sport administrator. Not per&nbsp;person.</p>
             <p class="price-note"><strong>The math:</strong> a $5,000 value per person. Bring six, your coaches, operations, and your sport administrator, and that is $30,000 of value for $1,000. I cover the&nbsp;rest.</p>
             <p class="price-note">Led live by Brian Audia, founder of QAIZR.</p>
             <a class="btn btn-primary" href="#register">Pre-register for the Sprint</a>
@@ -723,7 +735,7 @@
             </div>
             <div class="field">
               <label for="code">Access code</label>
-              <input type="text" id="code" name="code" value="CGGI" placeholder="CGGI">
+              <input type="text" id="code" name="code" value="WCGA" placeholder="WCGA">
             </div>
             <input type="text" class="hp" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
             <input type="hidden" name="_subject" value="New gymnastics Sprint pre-registration">
@@ -756,14 +768,14 @@
         <div class="faq-list">
           <details class="faq"><summary>Do I need to be tech-savvy to do this?</summary><p>No. If you can use email and a web browser, you can do this. We build live with you, one step at a time, and every session is recorded so you can go back over anything. Plenty of coaches will come in unsure about the tech and leave running their own agents.</p></details>
           <details class="faq"><summary>What will I need to participate?</summary><p>A Windows or Mac laptop or desktop you can install software on, with at a minimum 16 GB of RAM and 500 GB of storage. We recommend 24 GB of RAM and 1 TB. This runs real work on your own machine, so a phone, tablet, or Chromebook will not do it, and it is not a place to skimp. You will also need a reliable internet connection, and each person needs at least a Claude Pro subscription, about $20 a month, to build, run, and manage agents. There are real reasons we teach this work in Claude, and there is more on that below. We will tell you exactly what to set up before Day 1.</p></details>
-          <details class="faq"><summary>Are there any additional costs?</summary><p>The one flat $1,000, with code CGGI, covers the full training for your whole staff, up to five people, or six with your sport administrator. The only other cost is a Claude Pro subscription, about $20 a month per person. That is it, no hidden fees.</p></details>
+          <details class="faq"><summary>Are there any additional costs?</summary><p>The one flat $1,000, with code WCGA, covers the full training for your whole staff, up to five people, or six with your sport administrator. The only other cost is a Claude Pro subscription, about $20 a month per person. That is it, no hidden fees.</p></details>
           <details class="faq"><summary>Is there anything I need to do before Day 1?</summary><p>Yes. There is a short round of prework to get you registered and fully set up, your computer ready, Cowork by Claude installed, and your Claude Pro subscription active. Once we begin there is no time to stop and fix tech issues, so our team makes sure every person is prepped and ready before Day 1. Did we mention this is an intensive?!</p></details>
           <details class="faq"><summary>Are the sessions online or in person?</summary><p>Everything is virtual. All sessions are live on Zoom, and your Zoom links are posted in Basecamp.</p></details>
           <details class="faq"><summary>What if I have to miss a day?</summary><p>You will be fine. Every session is recorded, and the recording and transcript are posted in Basecamp for you to keep. All of your prompts, homework, and assignments live in your Basecamp folders too, so if you miss a morning or an afternoon you can watch the recording, grab everything you need, and be caught up for the next day.</p></details>
           <details class="faq"><summary>Can I switch between the morning and afternoon sessions?</summary><p>Yes. If travel or your schedule means you cannot make your usual session on a given day, join the other one that day instead. The same content is taught at 9:00 AM and 3:00 PM Central, so switch whenever you need to.</p></details>
           <details class="faq"><summary>Will there be time for questions?</summary><p>Yes. Each day I teach for an hour and then dismiss the group, but I stick around for a few minutes afterward for a quick Q&amp;A. If something was not clear, stay on and ask.</p></details>
           <details class="faq"><summary>How is the Sprint run day to day?</summary><p>We run the whole project through Basecamp. Your prompts, homework, session recordings, and where you submit your work all live there. You and your staff receive your Basecamp invitations once you register and pay.</p></details>
-          <details class="faq"><summary>Can my spouse or a family member join for their own business?</summary><p>Great idea, and yes. Normally I would tell them to wait and take a session where I am teaching general business applications rather than gymnastics-specific ones, but honestly it does not matter. The benefit of the two of you going through it together outweighs the gymnastics focus, because every tool, agent, method, and prompt we hand you applies to any business leader in any situation. One thing to be clear on: the CGGI gymnastics offer covers your program's staff, so a spouse or family member joining for a separate, non-gymnastics organization pays the normal rate of $1,000 per person. They cannot come through on the gymnastics deal. If you would like them to join you, have them register and add a note, and I will reach out to them personally to make sure they are fully supported.</p></details>
+          <details class="faq"><summary>Can my spouse or a family member join for their own business?</summary><p>Great idea, and yes. Normally I would tell them to wait and take a session where I am teaching general business applications rather than gymnastics-specific ones, but honestly it does not matter. The benefit of the two of you going through it together outweighs the gymnastics focus, because every tool, agent, method, and prompt we hand you applies to any business leader in any situation. One thing to be clear on: the WCGA gymnastics offer covers your program's staff, so a spouse or family member joining for a separate, non-gymnastics organization pays the normal rate of $1,000 per person. They cannot come through on the gymnastics deal. If you would like them to join you, have them register and add a note, and I will reach out to them personally to make sure they are fully supported.</p></details>
           <details class="faq"><summary>Can I share the agents, prompts, tools, and training videos you give me with other people or programs at my school?</summary><p>Please do not. These systems and tools are our intellectual property, and we have spent hundreds of thousands of dollars building them for you. On top of that, I am discounting this program enormously as an investment in you, your program, and women's gymnastics nationally. If you know someone else who would benefit, I would be grateful if you pointed them to us so they can get the program for themselves. You are on the honor system here, and I trust you. I am proving it by handing you everything.</p></details>
           <details class="faq"><summary>What if my school will not let me use Claude?</summary><p>That is a technical question specific to your situation, so let's have a quick side conversation to find the best solution. I am also glad to speak with your administrator or tech team about why these particular tools are needed. Think of it like construction: you need different tools for different reasons. We use saws, hammers, shovels, and chisels because different jobs call for different tools, and it would be extremely challenging to build an entire building with just a shovel. AI tools are much the same, and we will teach you to reach for the right one for each job. For building agents and running them together as a coordinated system, Cowork by Claude is, in our experience, the strongest tool for this work today, and it is what this entire Sprint is built around.</p></details>
         </div>
